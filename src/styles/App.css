@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-main,
+input,
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App > header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+}
+
+/* .App > header h2 {
+  display: inline-block;
+} */
+
+/* amplify-sign-out {
+  display: inline-block;
+} */
+
+table {
+  background: #545659;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: -5px -2px 54px rgb(214 222 250 / 15%);
+}
+
+td {
+  padding: 5px;
+}
+
+input {
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  border: 0;
+}
+
+input:disabled {
+  background: #545659;
+  color: white;
+}
+
+input:enabled {
+  box-shadow: inset 0px 3px 4px rgb(0 0 0 / 30%);
+  order: 1;
+}
+
+.icon {
+  margin: 0 5px;
+  transition: all 0.05s ease;
+  /* order: 1; */
+}
+/* 
+.icon.add,
+.icon.edit {
+  order: 0;
+}
+
+.icon.delete {
+  order: 0;
+} */
+
+.icon.add:hover {
+  filter: drop-shadow(0 0 6px rgb(178, 243, 169));
+}
+
+.icon.edit:hover {
+  filter: drop-shadow(0 0 6px #feb);
+}
+
+.icon.delete:hover {
+  filter: drop-shadow(0 0 6px rgb(236, 145, 142));
+}
